@@ -58,9 +58,10 @@ Run all cells in order (`Kernel → Restart & Run All`).
 
 All values are computed in the notebook and match the report.
 
-### Wait — the brief says "DDoS", but the labels say "DoS"?
-Correct. The Wednesday file's attacks are single-source **DoS** (Hulk, GoldenEye, slowloris,
-Slowhttptest). Genuine DDoS traffic lives in the Friday file and only enters through the
+### The Wednesday file
+
+Attacks are single-source **DoS** (Hulk, GoldenEye, slowloris, Slowhttptest). 
+Genuine DDoS traffic lives in the Friday file and only enters through the
 all-days extension, so Wednesday is modelled as BENIGN vs DoS as named.
 
 ### References?
