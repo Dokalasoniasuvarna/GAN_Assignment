@@ -1,6 +1,6 @@
 # GAN Coursework FAQ
 
-Everything you need to understand and re-run `GAN_Assignment_Set5_Final.ipynb`, written as
+Everything you need to understand and re-run `Sony_GAN_Assignment.ipynb`, written as
 a set of questions.
 
 ### What is this, in one sentence?
@@ -62,10 +62,6 @@ All values are computed in the notebook and match the report.
 Correct. The Wednesday file's attacks are single-source **DoS** (Hulk, GoldenEye, slowloris,
 Slowhttptest). Genuine DDoS traffic lives in the Friday file and only enters through the
 all-days extension, so Wednesday is modelled as BENIGN vs DoS as named.
-
-### Where's the write-up?
-In the accompanying report (`GAN_Assignment_Set5_Report.docx`), with exported figures in
-`Set 5 Result Images/`.
 
 ### References?
 Goodfellow et al. (2014) — GAN objective; Radford et al. (2016) — DCGAN; Mirza & Osindero
