@@ -1,4 +1,4 @@
-# GAN Coursework FAQ
+# GAN 
 
 Everything you need to understand and re-run `Sony_GAN_Assignment.ipynb`, written as
 a set of questions.
