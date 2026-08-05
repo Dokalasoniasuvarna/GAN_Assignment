@@ -1,0 +1,27 @@
+###############################################################################
+# Environment checklist
+#
+# TODO before running:
+#   [ ] Python 3.10+ with a CUDA GPU (CPU works but is slow)
+#   [ ] pip install -r requirements.txt   (or run the notebook's first cell)
+#   [ ] on CPU-only hardware, replace tensorflow[and-cuda] with plain tensorflow
+#
+# Part 1 + Part 2.2 -> PyTorch     |     Part 2.1 + Part 2.3 -> TensorFlow/Keras
+###############################################################################
+
+torch                     # Part 1 spectral-norm GAN + Part 2.2 tabular GAN
+torchvision               # image transforms / utilities
+tensorflow[and-cuda]      # Part 2.1 and Part 2.3 image DCGANs
+
+medmnist                  # OCTMNIST loader (Part 2.1)
+kagglehub                 # CICIDS 2017 download (Part 2.2)
+
+numpy                     # numerics
+pandas                    # CICIDS CSV wrangling
+scipy                     # sqrtm for FID
+scikit-learn              # PCA, t-SNE, RobustScaler (Part 2.2)
+
+matplotlib                # figures
+pillow                    # image I/O
+tqdm                      # progress bars
+requests                  # QuickDraw download
