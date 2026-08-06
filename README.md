@@ -1,4 +1,4 @@
-# Generative Adversarial Networks — From Scratch and Real-World Applications
+# Designing and Training Generative Adversarial Networks for Three Real-World Application Areas
 
 This repository contains a complete GAN coursework implementation, starting with GANs built from scratch on synthetic 2D data and extending them to three real-world applications: **medical imaging, cybersecurity, and creative sketch generation**.
 
